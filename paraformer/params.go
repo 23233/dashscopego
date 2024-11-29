@@ -11,7 +11,6 @@ const (
 	ParaformerMtlV1 ModelParaformer = "paraformer-mtl-v1"
 	ParaformerV2    ModelParaformer = "paraformer-v2"
 	Paraformer8KV2  ModelParaformer = "paraformer-8k-v2"
-
 	// real time voice.
 	ParaformerRealTimeV1   ModelParaformer = "paraformer-realtime-v1"
 	ParaformerRealTime8KV1 ModelParaformer = "paraformer-realtime-8k-v1"

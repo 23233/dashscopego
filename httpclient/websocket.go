@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	_ "github.com/devinyf/dashscopego/config" //nolint:revive
+	_ "github.com/23233/dashscopego/config" //nolint:revive
 	"github.com/gorilla/websocket"
 )
 

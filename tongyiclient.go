@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	embedding "github.com/devinyf/dashscopego/embedding"
-	httpclient "github.com/devinyf/dashscopego/httpclient"
-	"github.com/devinyf/dashscopego/paraformer"
-	"github.com/devinyf/dashscopego/qwen"
-	"github.com/devinyf/dashscopego/wanx"
+	embedding "github.com/23233/dashscopego/embedding"
+	httpclient "github.com/23233/dashscopego/httpclient"
+	"github.com/23233/dashscopego/paraformer"
+	"github.com/23233/dashscopego/qwen"
+	"github.com/23233/dashscopego/wanx"
 )
 
 type TongyiClient struct {

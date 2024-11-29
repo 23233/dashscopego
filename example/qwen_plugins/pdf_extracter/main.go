@@ -7,8 +7,8 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/devinyf/dashscopego"
-	"github.com/devinyf/dashscopego/qwen"
+	"github.com/23233/dashscopego"
+	"github.com/23233/dashscopego/qwen"
 )
 
 func main() {

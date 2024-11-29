@@ -3,29 +3,28 @@ package main
 import (
 	"context"
 	"fmt"
-	"os"
-	"os/user"
 	"path/filepath"
 
-	"github.com/devinyf/dashscopego"
-	"github.com/devinyf/dashscopego/paraformer"
+	"github.com/23233/dashscopego"
+	"github.com/23233/dashscopego/paraformer"
 )
 
 func main() {
 	model := paraformer.ParaformerV2
-	token := os.Getenv("DASHSCOPE_API_KEY")
+	token := "sk-b6538fc37c0a4e6b8301dfaccad8b5c3"
 	if token == "" {
 		panic("token is empty")
 	}
 
 	cli := dashscopego.NewTongyiClient(model, token)
 
-	usr, err := user.Current()
-	if err != nil {
-		panic(err)
-	}
+	//usr, err := user.Current()
+	//if err != nil {
+	//	panic(err)
+	//}
 
-	voiceFile := filepath.Join(usr.HomeDir, "Desktop", "hello_world_female2.wav")
+	//voiceFile := filepath.Join(usr.HomeDir, "Desktop", "test.mp3")
+	voiceFile := filepath.Join("D:", "Desktop", "test.mp3")
 	filePath := "file://" + voiceFile
 
 	req := &paraformer.AsyncTaskRequest{
